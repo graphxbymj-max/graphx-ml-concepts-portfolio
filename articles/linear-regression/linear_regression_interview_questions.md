@@ -77,18 +77,18 @@ $$
 
 Where:
 
-- \(y\) = predicted output
-- \(x_{1}, x_{2}, x_{3}\) = input features
-- \(w_{1}, w_{2}, w_{3}\) = learned coefficients
-- \(b\) = intercept
+- $$y$$ = predicted output
+- $$x_{1}, x_{2}, x_{3}$$ = input features
+- $$w_{1}, w_{2}, w_{3}$$ = learned coefficients
+- $$b$$ = intercept
 
 In my Disney movie project:
 
-- \(y\) = predicted box office revenue
-- \(x_{1}\) = budget
-- \(x_{2}\) = runtime
-- \(x_{3}\) = IMDb rating
-- \(x_{4}\) = release year
+- $$y$$ = predicted box office revenue
+- $$x_{1}$$ = budget
+- $$x_{2}$$ = runtime
+- $$x_{3}$$ = IMDb rating
+- $$x_{4}$$ = release year
 
 So the model is trying to learn:
 
@@ -423,9 +423,9 @@ $$
 
 Where:
 
-- \(MSE\) = model error
-- \(w_j\) = coefficients
-- \(\lambda\) = regularization strength
+- $$MSE$$ = model error
+- $$w_j$$ = coefficients
+- $$\lambda$$ = regularization strength
 
 Intuitively:
 
