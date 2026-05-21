@@ -1,73 +1,90 @@
-# Linear Regression Explained Intuitively
+# 🎬 Can Machine Learning Predict Disney Movie Success?
 
-## Project Overview
+## Linear Regression Explained Intuitively with Real Disney Movie Data
 
-This project explains Linear Regression using an intuitive, practical, and interview-friendly approach.
+Welcome to the first project in the GraphX Labs ML Concepts Portfolio.
 
-The goal is to understand how Linear Regression works, how to build it in Python, how to evaluate it, and how to interpret the model results using a real-world dataset.
+This project explores how Linear Regression can be used to predict Disney movie box office revenue using real-world movie-related features such as:
 
-This project is part of the GraphX Labs ML Concepts Portfolio.
+- budget
+- runtime
+- IMDb ratings
+- release year
+- critic scores
 
-## Problem Statement
+The goal of this project is not just to build a model, but to deeply understand:
+- how Linear Regression works
+- how machine learning models learn relationships
+- how to evaluate regression models
+- how preprocessing impacts performance
+- how to interpret results critically
 
-We will use Linear Regression to predict a continuous numerical target using real-world features.
+---
 
-The focus is not just on building a model, but on understanding:
+# 🚀 Project Objective
 
-- What Linear Regression is trying to learn
-- How features influence predictions
-- How to evaluate regression models
-- How to interpret coefficients
-- Where Linear Regression works well
-- Where Linear Regression can fail
+The objective of this project is to answer the question:
 
-## Dataset
+> Can machine learning predict Disney movie success?
 
-Dataset Source: Kaggle  
-Dataset Type: Regression  
-Target Variable: To be finalized after dataset selection
+More specifically:
 
-Recommended dataset themes:
+> Can we predict Disney movie box office revenue using movie metadata and ratings?
 
-- Medical insurance cost prediction
-- Customer lifetime value prediction
-- Ecommerce revenue prediction
-- Used car price prediction
-- Real estate price prediction
+This project uses Linear Regression as the foundational machine learning model to explore:
+- prediction
+- feature relationships
+- coefficient interpretation
+- residual analysis
+- model assumptions
 
-## Concepts Covered
+---
 
-- Simple Linear Regression
-- Multiple Linear Regression
-- Train/Test Split
-- Exploratory Data Analysis
-- Correlation Analysis
-- Model Training
-- Regression Metrics
-- MAE
-- MSE
-- RMSE
-- R² Score
-- Residual Analysis
-- Coefficient Interpretation
-- Model Limitations
+# 📊 Dataset
 
-## Project Workflow
+## Dataset Source
 
-1. Load dataset
-2. Understand features and target variable
-3. Clean the data
-4. Perform exploratory data analysis
-5. Visualize relationships
-6. Prepare train and test datasets
-7. Train Linear Regression model
-8. Generate predictions
-9. Evaluate model performance
-10. Interpret coefficients
-11. Analyze residuals
-12. Document key learnings
+Disney Movies Dataset
 
-## Folder Structure
+The dataset contains information about Disney movies, including:
+- title
+- budget
+- runtime
+- IMDb ratings
+- Metascore
+- Rotten Tomatoes score
+- release dates
+- box office revenue
+
+---
+
+# 🧠 Machine Learning Problem Type
+
+This is a:
+
+## Supervised Regression Problem
+
+Why?
+
+Because:
+- the target variable (`box_office`) is continuous
+- we are predicting a numerical value
+
+---
+
+# 📦 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+# 📂 Project Structure
 
 ```text
 linear-regression/
@@ -77,34 +94,21 @@ linear-regression/
 │   └── processed/
 │
 ├── notebooks/
+│   └── disney_linear_regression.ipynb
 │
 ├── src/
 │   ├── __init__.py
 │   ├── data_preprocessing.py
+│   ├── feature_engineering.py
 │   ├── model_training.py
 │   └── evaluation.py
 │
 ├── images/
+│
 ├── reports/
+│   └── linear_regression_summary.md
+│
 ├── README.md
 ├── requirements.txt
-├── interview_questions.md
-└── article_outline.md
-
-
-
----
-
-## Step 5: Add requirements for this project
-
-```bash
-cat > requirements.txt << 'EOF'
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-jupyter
-notebook
-kaggle
-statsmodels
+├── article_outline.md
+└── interview_questions.md
